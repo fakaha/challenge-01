@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li a{
+    white-space: nowrap;
+}
+
+nav .register-button{
+    background-color: #5CB85F;
+}
+
+.sewa-title{
+    font-size: 36px;
+    width: 568px;
+}
+
+.button-sewa{
+    background-color: #5CB85F;
+}
+
+.background-car{
+    position: absolute;
+    bottom: 0;
+    left: 10.2%;
+    background-color: #0D28A6;
+    height: 243px;
+    width: 704px;
+    border-top-left-radius: 4em;
+    z-index: -1;
+}
+.mercedes-car{
+    width: 125%;
+}
+
+.our-services{
+    margin-top: 120px;
+}
+
+.list-service{
+    display: flex;
+    gap: 16px;
+}
+
+.list-service p{
+    margin-bottom: 0;
+}
+
+.banner{
+    background-color: #0D28A6;
+}
+
+.banner .row button.button-sewa{
+    width: auto;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 600px) {
+    .sewa-title{
+        width: 328px;
+    }
+
+    .background-car{
+        margin-left: 0;
+        left: 7%;
+        height: 118.81px;
+        width: 94vw;
+    }
+
+    .mercedes-car{
+        width: 92%;
+    }
+}

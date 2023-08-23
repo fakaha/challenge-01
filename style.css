@@ -73,8 +73,32 @@ nav .register-button{
     .mercedes-car{
         width: 92%;
     }
+
+    .our-services-img{
+        display: flex;
+        margin: auto;
+    }
+
+    .our-services-detail{
+        margin: auto;
+        width: 95%;
+    }
+
+    .our-services-img{ 
+        width: 80%;
+    }
+
     .why-us-list{
         width: 95%;
+    }
+
+    .banner{
+        width: 95%;
+    }
+
+    .banner-detail{
+        width: 80%;
+        margin: auto;
     }
 
     .kontak{

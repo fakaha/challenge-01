@@ -150,7 +150,7 @@
             <div class="row mt-5 pt-3">
                 <div class="loop owl-carousel owl-theme owl-loaded owl-drag">
 
-                    <div class="item">
+                    <!-- <div class="item testi-list">
                         <div class="col-lg-4">
                             <img src="img/img_photo_testi1.png" alt="">
                         </div>
@@ -163,9 +163,9 @@
                                 adipiscing elit, sed do eiusmod”</p>
                             <p>John Dee 32, Bromo</p>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-lg-4">
+                    </div> -->
+                    <div class="item testi-list px-5">
+                        <!-- <div class="col-lg-4">
                             <img src="img/img_photo_testi2.png" alt="">
                         </div>
                         <div class="col-lg-8">
@@ -176,9 +176,17 @@
                                 consectetur
                                 adipiscing elit, sed do eiusmod”</p>
                             <p>John Dee 32, Bromo</p>
+                        </div> -->
+                        <img src="img/img_photo_testi1.png" style="width: 80px; height: 80px;" alt="">
+                        <div>
+                            <img src="img/Rate.png" alt="" style="height: 16px; width: 80px;">
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod”</p>
+                            <p>John Dee 32, Bromo</p>
                         </div>
                     </div>
-                    <div class="item">
+                    <!-- <div class="item testi-list">
                         <div class="col-lg-4">
                             <img src="img/img_photo_testi3.png" alt="">
                         </div>
@@ -189,6 +197,27 @@
                                 amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
                                 consectetur
                                 adipiscing elit, sed do eiusmod”</p>
+                            <p>John Dee 32, Bromo</p>
+                        </div>
+                    </div> -->
+                    <div class="item testi-list px-5">
+                        <img src="img/img_photo_testi2.png" style="width: 80px; height: 80px;" alt="">
+                        <div>
+                            <img src="img/Rate.png" alt="" style="height: 16px; width: 80px;">
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod”</p>
+                            <p>John Dee 32, Bromo</p>
+                        </div>
+                    </div>
+
+                    <div class="item testi-list px-5">
+                        <img src="img/img_photo_testi3.png" style="width: 80px; height: 80px;" alt="">
+                        <div>
+                            <img src="img/Rate.png" alt="" style="height: 16px; width: 80px;">
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod”</p>
                             <p>John Dee 32, Bromo</p>
                         </div>
                     </div>
@@ -246,30 +275,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-12">
-                    <h3>Frequently Asked Question</h3>
+                    <h3 class="text-center text-lg-start fw-bold">Frequently Asked Question</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div class="col-lg-7 col-12 d-flex gap-3 flex-column">
-                    <div class="list-faq d-flex align-items-center justify-content-between border border-2 p-2">
-                        <p class="m-0">Apa saja syarat yang dibutuhkan?</p>
-                        <img src="img/drop-down.png" alt="">
-                    </div>
-                    <div class="list-faq d-flex align-items-center justify-content-between border border-2 p-2">
-                        <p class="m-0">Berapa hari minimal sewa mobil lepas kunci?</p>
-                        <img src="img/drop-down.png" alt="">
-                    </div>
-                    <div class="list-faq d-flex align-items-center justify-content-between border border-2 p-2">
-                        <p class="m-0">Berapa hari sebelumnya sabaiknya booking sewa mobil?</p>
-                        <img src="img/drop-down.png" alt="">
-                    </div>
-                    <div class="list-faq d-flex align-items-center justify-content-between border border-2 p-2">
-                        <p class="m-0">Apakah Ada biaya antar-jemput?</p>
-                        <img src="img/drop-down.png" alt="">
-                    </div>
-                    <div class="list-faq d-flex align-items-center justify-content-between border border-2 p-2">
-                        <p class="m-0">Bagaimana jika terjadi kecelakaan</p>
-                        <img src="img/drop-down.png" alt="">
-                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mb-4 border border-3">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Apa saja syarat yang dibutuhkan?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mb-4 border border-3">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Berapa hari minimal sewa mobil lepas kunci?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mb-4 border border-3">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mb-4 border border-3">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Apakah Ada biaya antar-jemput?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mb-4 border border-3">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Bagaimana jika terjadi kecelakaan
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                      </div>
+
                 </div>
             </div>
         </div>
@@ -292,11 +355,11 @@
                 <div class="col-lg-4 col-12">
                     <p>Connect with us</p>
                     <div class="social-media d-flex gap-3">
-                        <img src="img/icon_facebook.png" alt="">
-                        <img src="img/icon_instagram.png" alt="">
-                        <img src="img/icon_twitter.png" alt="">
-                        <img src="img/icon_mail.png" alt="">
-                        <img src="img/icon_twitch.png" alt="">
+                        <img onclick="goto('https://www.facebook.com/')" src="img/icon_facebook.png" alt="">
+                        <img onclick="goto('https://instagram.com/zulfa_fakaha')" src="img/icon_instagram.png" alt="">
+                        <img onclick="goto('https://twitter.com/home')" src="img/icon_twitter.png" alt="">
+                        <img onclick="goto('https://mail.google.com/')" src="img/icon_mail.png" alt="">
+                        <img onclick="goto('https://www.twitch.tv/')" src="img/icon_twitch.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-12">
@@ -306,6 +369,12 @@
             </div>
         </div>
     </section>
+
+    <script>
+        function goto(socialMedia) {
+            window.open(socialMedia)
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

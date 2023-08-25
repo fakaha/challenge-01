@@ -52,8 +52,11 @@ nav .register-button{
     margin-bottom: 0;
 }
 
-.wadah-button{
+.testi-list{
+    width: 515px;
     display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .banner{
@@ -62,6 +65,10 @@ nav .register-button{
 
 .banner .row button.button-sewa{
     width: auto;
+}
+
+.social-media img{
+    cursor: pointer;
 }
 
 /* MEDIA QUERY */
@@ -98,6 +105,19 @@ nav .register-button{
 
     .why-us-list{
         width: 95%;
+    }
+
+    .owl-carousel{
+
+    }
+
+    .testi-list{
+        width: 515px;
+        display: flex;
+        flex-direction: column;
+        
+        /* align-items: center;
+        gap: 40px; */
     }
 
     .banner{

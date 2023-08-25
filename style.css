@@ -1,139 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul li a{
-    white-space: nowrap;
+nav ul li a {
+  white-space: nowrap;
 }
 
-nav .register-button{
-    background-color: #5CB85F;
+nav .register-button {
+  background-color: #5cb85f;
 }
 
-.sewa-title{
-    font-size: 36px;
-    width: 568px;
+.sewa-title {
+  font-size: 36px;
+  width: 568px;
 }
 
-.button-sewa{
-    background-color: #5CB85F;
+.button-sewa {
+  background-color: #5cb85f;
 }
 
-.background-car{
-    position: absolute;
-    bottom: 0;
-    left: 8.7%;
-    background-color: #0D28A6;
-    height: 243px;
-    width: 704px;
-    border-top-left-radius: 4em;
-    z-index: -1;
+.background-car {
+  position: absolute;
+  bottom: 0;
+  left: 8.7%;
+  background-color: #0d28a6;
+  height: 243px;
+  width: 704px;
+  border-top-left-radius: 4em;
+  z-index: -1;
 }
-.mercedes-car{
-    width: 125%;
-}
-
-.our-services{
-    margin-top: 120px;
+.mercedes-car {
+  width: 125%;
 }
 
-.list-service{
-    display: flex;
-    gap: 16px;
+.our-services {
+  margin-top: 120px;
 }
 
-.list-service p{
-    margin-bottom: 0;
+.list-service {
+  display: flex;
+  gap: 16px;
 }
 
-.testi-list{
-    width: 515px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.list-service p {
+  margin-bottom: 0;
 }
 
-.banner{
-    background-color: #0D28A6;
+.testi-list {
+  width: 515px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.banner .row button.button-sewa{
-    width: auto;
+.banner {
+  background-color: #0d28a6;
 }
 
-.social-media img{
-    cursor: pointer;
+.banner .row button.button-sewa {
+  width: auto;
+}
+
+.social-media img {
+  cursor: pointer;
 }
 
 /* MEDIA QUERY */
 
 @media screen and (max-width: 600px) {
-    .sewa-title{
-        width: 328px;
-    }
+  .sewa-title {
+    width: 328px;
+  }
 
-    .background-car{
-        margin-left: 0;
-        left: 7%;
-        height: 118.81px;
-        width: 94vw;
-    }
+  .background-car {
+    margin-left: 0;
+    left: 7%;
+    height: 118.81px;
+    width: 94vw;
+  }
 
-    .mercedes-car{
-        width: 92%;
-    }
+  .mercedes-car {
+    width: 92%;
+  }
 
-    .our-services-img{
-        display: flex;
-        margin: auto;
-    }
+  .our-services-img {
+    display: flex;
+    margin: auto;
+  }
 
-    .our-services-detail{
-        margin: auto;
-        width: 95%;
-    }
+  .our-services-detail {
+    margin: auto;
+    width: 95%;
+  }
 
-    .our-services-img{ 
-        width: 80%;
-    }
+  .our-services-img {
+    width: 80%;
+  }
 
-    .why-us-list{
-        width: 95%;
-    }
+  .why-us-list {
+    width: 95%;
+  }
 
-    .owl-carousel{
+  .owl-carousel {
+  }
 
-    }
+  .testi-list {
+    width: 515px;
+    display: flex;
+    flex-direction: column;
 
-    .testi-list{
-        width: 515px;
-        display: flex;
-        flex-direction: column;
-        
-        /* align-items: center;
+    /* align-items: center;
         gap: 40px; */
-    }
+  }
 
-    .banner{
-        width: 95%;
-    }
+  .banner {
+    width: 95%;
+  }
 
-    .banner-detail{
-        width: 80%;
-        margin: auto;
-    }
+  .banner-detail {
+    width: 80%;
+    margin: auto;
+  }
 
-    .kontak{
-        width: 75%;
-    }
+  .kontak {
+    width: 75%;
+  }
 
-    .nav-footer{
-        width: 75%;
-    }
+  .nav-footer {
+    width: 75%;
+  }
 }
